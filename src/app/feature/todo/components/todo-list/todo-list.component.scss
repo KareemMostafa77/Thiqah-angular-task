@@ -1,0 +1,144 @@
+@import '../../../../../styles.scss';
+/* Content Style */
+main {
+	section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 30px;
+		position: relative;
+		.todo-list-card {
+			padding: 20px 30px;
+			background-color: $background-color_4;
+			width: 30%;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+			border-radius: 3px;
+			.date-day-container {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.date {
+					display: flex;
+					align-items: center;
+					text-align: center;
+					h2 {
+						font-size: 40px;
+					}
+				}
+				.day {
+					h6 {
+						font-size: 20px;
+					}
+				}
+			}
+			.search-input-container {
+				input {
+					width: 100%;
+					border: 2px solid #004e75;
+					padding: 5px;
+					border-radius: 3px;
+				}
+			}
+			.todo-list-container {
+				height: 200px;
+				overflow: scroll;
+				scrollbar-width: thin;
+				scrollbar-color: transparent transparent;
+				-ms-overflow-style: none;
+				&::-webkit-scrollbar {
+					width: 6px;
+				}
+				&::-webkit-scrollbar-thumb {
+					background-color: $background-color_5;
+				}
+				&::-webkit-scrollbar-track {
+					background-color: $background-color_5;
+				}
+				.todo-list-item {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					margin-top: 20px;
+					.list-item-label {
+						font-size: 20px;
+						margin: 0 5px;
+						cursor: pointer;
+
+            &.muted-text {
+              color: #868b8f !important;
+            }
+					}
+					.list-item-options {
+						display: flex;
+						align-items: center;
+						input {
+							width: 20px;
+							height: 20px;
+							margin: 0px 10px;
+							cursor: pointer;
+							accent-color: #004e75;
+						}
+						.delete-icon {
+							cursor: pointer;
+							display: flex;
+							padding: 5px;
+							border: 1.5px solid #004e75;
+							border-radius: 3px;
+						}
+					}
+				}
+			}
+			.create-btn-container {
+				position: absolute;
+				bottom: -25px;
+				left: 0;
+				width: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				button {
+					height: 50px;
+					width: 50px;
+					border-radius: 50%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					background-color: $background-color_2;
+					border: #03b0ac;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+/* Responsive */
+/* Extra Small Devices (Phones) */
+@media (max-width: 575.98px) {
+	main {
+		section {
+			.todo-list-card {
+				width: 90%;
+			}
+		}
+	}
+}
+/* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	main {
+		section {
+			.todo-list-card {
+				width: 60%;
+			}
+		}
+	}
+}
+/* Medium Devices (Laptops and Desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	main {
+		section {
+			.todo-list-card {
+				width: 40%;
+			}
+		}
+	}
+}

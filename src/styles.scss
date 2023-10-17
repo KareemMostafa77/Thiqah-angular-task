@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+$color_1: white;
+$color_2: #03b0ac;
+$font-family_1: "Changa", sans-serif;
+$background-color_1: #f0efea;
+$background-color_2: #03b0ac;
+$background-color_3: #004e75;
+$background-color_4: white;
+$background-color_5: transparent;
+
+/* General Style */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $font-family_1;
+}
+body {
+	background-color: $background-color_1;
+}

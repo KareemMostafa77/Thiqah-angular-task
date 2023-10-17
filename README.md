@@ -1,27 +1,36 @@
 # ThiqahAngularTask
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+This Angular project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+
+## Task Description
+
+This project was created as a part of the Thiqah Company Frontend Angular Task. The task involved the following steps:
+
+1. **Create a new Angular project** using Angular CLI.
+
+2. **Integrate Static Files** by converting them into Angular components. This ensures modularity and maintainability.
+
+3. **Create an External API**: For this task, an external API was set up using Firebase. This API serves as the backend for managing a to-do list.
+
+4. **Call API Inside Angular**: The Angular application is integrated with the external API to perform CRUD (Create, Read, Update, Delete) operations on the to-do list.
+
+5. **To-Do List Operations**:
+   - Create new to-do items
+   - Edit existing to-do items
+   - List all to-dos
+   - Remove to-do items
+   - Search functionality to find specific to-dos.
+
+6. **Build Angular Project**: The Angular project was built using the command `ng build` and the resulting artifacts are stored in the `dist/` directory.
+
+7. **Built Project**: The built version of this Angular project can be found in the `build-project` directory.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To run the development server, use the command `ng serve`. The application can be accessed at `http://localhost:4200/`. Any changes made to the source files will automatically trigger a reload.
 
-## Code scaffolding
+## Code Scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+You can generate various Angular components, directives, pipes, services, classes, guards, interfaces, enums, and modules using Angular CLI. Example command: `ng generate component component-name`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Feel free to reach out if you have any questions or need further information!

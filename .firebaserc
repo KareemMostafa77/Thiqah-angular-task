@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "thiqah-task": {
+      "hosting": {
+        "Thiqah-Angular-Task": [
+          "thiqah-task"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "thiqah-task"
+  }
+}

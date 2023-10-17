@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "Thiqah-Angular-Task",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
